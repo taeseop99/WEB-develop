@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>가격표</h1>
+    <table border="1" cellspacing="10" cellpadding="0">
+      <!--thead 다음 tr안에 th를 넣어야 함-->
+      <thead>
+        <tr>
+          <th>메뉴</th>
+          <th>가격</th>
+          <th>비고</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--tr안에 td를 넣어야 함-->
+        <tr>
+          <td>국물떡볶이</td>
+          <td>5000원</td>
+          <td>매운맛 선택,보통,맵게,아주맵게</td>
+        </tr>
+        <tr>
+          <td>김밥</td>
+          <td>3,000원</td>
+          <td>두줄이상 주문가능</td>
+        </tr>
+        <tr>
+          <td>순대국</td>
+          <td>10000원</td>
+          <td>얼큰이로 변경시 1000원 추가</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>new 가격표</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>메뉴</th>
+          <th>가격</th>
+          <th>비고</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>국물떡볶이</td>
+          <td>6,000원</td>
+          <td>맵기 선택 가능</td>
+        </tr>
+        <tr>
+          <td>참치김밥</td>
+          <!--rowspan:해당 칸을 점유하는 행의 수 지정-->
+          <td rowspan="2">4,000원</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>치즈김밥</td>
+          <td></td>
+        </tr>
+        <tr>
+          <!--colspan:해당 칸을 점유하는 열의 수 지정-->
+          <td colspan="3">순대 (품절)</td>
+        </tr>
+      </tbody>
+      <table border="1" cellspacing="0" cellpadding="5" />
+
+      <tbody>
+        <tr>
+          <td colspan="4">1</td>
+          <td rowspan="2">2</td>
+        </tr>
+        <tr>
+          <td rowspan="4">3</td>
+          <td colspan="3">center</td>
+        </tr>
+        <tr>
+          <td colspan="4">4</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1" cellspacing="0" cellpadding="5" />
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>음료</th>
+        <th>가격</th>
+        <th>이미지</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">커피류</td>
+        <td>아메리카노</td>
+        <td>4,000원</td>
+        <td>
+          <img
+            src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+            alt="상품이미지"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>카페모카</td>
+        <td>4,500원</td>
+        <td>
+          <img
+            src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110566]_20210415134334280.jpg"
+            alt="상품이미지"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">쥬스류</td>
+        <td>망고바나나</td>
+        <td rowspan="2">4,500원</td>
+        <td>
+          <img
+            src="https://image.istarbucks.co.kr/upload/store/skuimg/2023/09/[9200000004870]_20230905110300360.jpg"
+            alt="상품이미지"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>초코에이드</td>
+        <td>
+          <img
+            src="https://image.istarbucks.co.kr/upload/store/skuimg/2023/02/[9200000004527]_20230206091612170.jpg"
+            alt="상품이미지"
+          />
+        </td>
+      </tr>
+    </tbody>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>음료</th>
+          <th>가격</th>
+          <th>이미지</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">커피류</td>
+          <td>아메리카노</td>
+          <td>4200원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+              alt="상품이미지"
+              width="200px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>돌체</td>
+          <td>4800원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+              alt="상품이미지"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">주스류</td>
+          <td>자바칩 프라푸치노</td>
+          <td rowspan="2">5000원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+              alt="상품이미지"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>녹차 프라푸치노</td>
+
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+              alt="상품이미지"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+<!--html은 무조건 위에서 부터 내려온다-->
+<!--th는 thead-tr-th-->
+<!--td는 tbody-tr-td-->
+<!--이미지는 width를 이용하여 사이즈 조정이 바로 가능함-->
