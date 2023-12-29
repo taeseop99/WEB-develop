@@ -1,0 +1,16 @@
+.stripes *:nth-child(1n) {
+  background-color: navy;
+}
+.stripes *:nth-child(2n) {
+  background-color: yellow;
+}
+.stripes *:nth-child(1n) {
+  color: white;
+}
+.stripes *:nth-child(2n) {
+  color: black;
+}
+h1:hover {
+  color: red;
+  cursor: pointer;
+}

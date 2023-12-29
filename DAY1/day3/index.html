@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+      css 주석 
+      */
+      /* 부모요소에게 주면 자식 요소들까지 물려 받는다 */
+      #orange {
+        color: orange;
+      }
+      #orange {
+        /* font-size: 글씨의 크기를 변경 */
+        font-size: 30px;
+        font-family: "notosans-bold";
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>사과</li>
+        <li>딸기</li>
+        <li id="orange" class="orange">오렌지</li>
+      </ul>
+      <div>당근</div>
+      <p>토마토</p>
+      <span class="orange bgcolor">오렌지</span>
+    </div>
+  </body>
+</html>
