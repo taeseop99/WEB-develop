@@ -1,0 +1,8 @@
+/* content앞에 쓸때는 before */
+.box::before {
+  content: " 택시 ";
+}
+/* content뒤에 쓸때는 after */
+.box::after {
+  content: " 빨리 ";
+}

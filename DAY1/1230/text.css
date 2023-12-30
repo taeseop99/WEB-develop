@@ -1,0 +1,10 @@
+.text {
+  width: 300px;
+
+  text-align: left;
+  text-decoration: underline;
+}
+/* text-align:문장 정렬(왼쪽,오른쪽,가운데,양쪽) */
+/* text-decoration: 문자 선(위,아래,가운데) */
+/* text-align,font-align 속성 이름 잘 구분하기 */
+/* css는 속성 이름 잘 이해 해야함 */

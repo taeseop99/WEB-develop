@@ -1,0 +1,41 @@
+.main {
+  background-color: orange;
+  width: auto;
+  height: 200px;
+}
+.html {
+  background-color: skyblue;
+}
+.css {
+  background-color: green;
+}
+.javascript {
+  background-color: red;
+}
+.main div {
+  width: 200px;
+  height: 100px;
+}
+/* --에 자식요소 선택: !! > !! */
+.main > div {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* margin: 50px; */
+/* margin: 20px 40px; */
+/* margin: 20px 40px 60px; */
+/* margin: 10px 30px 50px 70px; */
+/* margin: 20px 20px; */
+/* padding: 30px; */
+/* padding: 20px 40px; */
+/* padding: 20px 30px 40px; */
+/* padding: 10px 20px 30px 40px; */
+
+/* display:레이아웃을 꾸밀때 사용,화면에 어떻게 요소들을
+    보여줄지 나타내는 것 */
+/* margin:요소 외부 여백 */
+/* margin 단위 방향은 시계방향 */
+/* padding:요소 내부 여백 */
+/* padding 단위 방향은 시계방향 */
+/* boder:테두리 선을 그리는 속성 */
