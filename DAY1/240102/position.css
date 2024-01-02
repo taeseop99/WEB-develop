@@ -1,0 +1,32 @@
+.parent {
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.box1 {
+  background-color: yellowgreen;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 100px;
+  height: 80px;
+}
+.box2 {
+  background-color: red;
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+}
+.box3 {
+  background-color: orange;
+  width: 100px;
+  height: 150px;
+  position: fixed;
+  right: 100px;
+  top: 100px;
+}
+/* fixed:고정 */
+/* 앱솔루트는 부모 따라 고정(항상 부모가 있어야 함 */

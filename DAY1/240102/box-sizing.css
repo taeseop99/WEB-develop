@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 15px solid red;
+  background-color: orange;
+  /* width,height 는 컨텐츠의 사이즈 */
+}
+.contentbox {
+  box-sizing: content-box;
+}
+.borderbox {
+  box-sizing: border-box;
+}

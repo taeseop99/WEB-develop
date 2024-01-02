@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+.kdt {
+  background-color: blue;
+  width: calc(100vw / 10);
+  /* 10/1 계산 수식 */
+  height: calc(100vw / 10);
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: calc(50vh - (100vw / 20));
+  line-height: calc(100vw / 10);
+}
+
+/* max:지정 값 이상 늘어나지 않는다 */
+/* min:지정 값 이하로 줄어들지 않는다 */
+/* calc:다른 값일때 사용 */
