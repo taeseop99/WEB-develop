@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+}
+.item {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.item1 {
+  background-color: blanchedalmond;
+  z-index: 3;
+}
+.item2 {
+  background-color: black;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+.item3 {
+  background-color: aquamarine;
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
