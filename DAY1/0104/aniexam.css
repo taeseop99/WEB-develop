@@ -1,0 +1,47 @@
+/* .ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: burlywood;
+
+  animation: bounce 3s 6;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 500px;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+  }
+  75% {
+    top: 500px;
+    left: 0px;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+} */
+.text {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  overflow-y: scroll;
+}
+.text:hover {
+  width: 300px;
+  height: 300px;
+  transform: translate(300px 300px);
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in;
+}

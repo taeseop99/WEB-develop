@@ -1,0 +1,50 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+.main {
+  position: relative;
+}
+.image {
+  position: absolute;
+  transform: skewY(20deg);
+}
+.image1 {
+  top: 180px;
+  left: 100px;
+  z-index: 10;
+}
+.image2 {
+  top: 150px;
+  left: 350px;
+  z-index: 5;
+}
+.image3 {
+  top: 120px;
+  left: 600px;
+}
+
+/* transform: translate=이동 */
+/* transform: translate(100px, 100px);
+  transform: translateX(20px); */
+
+/* scale:크기 조절 */
+/* transform: scale(1.5);
+    transform: scale(2);
+    transform: scaleY(2);
+  transform: scale(1.5); */
+
+/* rotate:회전 */
+/* transform: rotate(45deg);
+    transform: rotateX(228deg);*/
+/* transform: rotateY(180deg);
+  backface-visibility: hidden; */
+
+/* skew:기울임
+        /* transform: skew(250deg, 189deg);
+        transform: skewX(45deg);
+        transform: skewY(332deg); */
+/* 재밌음 */
+
+/* transform: 한줄에 여러개 쓸 수 있다. */
+/* transform: rotate3d(); */
