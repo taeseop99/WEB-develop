@@ -132,7 +132,7 @@ const powerResult = calculator.power(squareResult, 3);
 //typeof:데이터의 종류를 알 수 있음
 //parseInt:스트링을 넘버로 변경해줌
 //isNaN:진실인지 아닌지 확인하는
-const age = parseInt(prompt('how old are you?'));
+//const age = parseInt(prompt('how old are you?'));
 
 /*
 ||: 두개의 조건 중 하나만 진실이 되는
