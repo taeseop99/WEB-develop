@@ -1,0 +1,66 @@
+/* 실습1
+@media (min-width: 500px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (max-height: 300px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+@media (min-height: 500px) {
+    /*500이상으로 넘어가는 순간
+    p {
+        background-color: greenyellow;
+        color: white;
+    }
+} */
+header {
+    background-color: skyblue;
+}
+.logo {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: skyblue;
+}
+
+nav {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+nav div {
+    padding: 10px 0px;
+}
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: skyblue;
+    }
+    .logo {
+        position: relative;
+        left: 80px;
+    }
+    nav div {
+        padding: 10px 10px;
+        font-weight: bold;
+    }
+}

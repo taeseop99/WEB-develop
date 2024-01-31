@@ -4,7 +4,7 @@
 /* 구글폰트 */
 
 .google {
-  font-family: "Noto Sans KR, sans-serif";
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 /* 눈누폰트 */
@@ -17,5 +17,4 @@
 }
 .noonnu {
   font-family: "JalnanGothic";
-  font-size: 12px;
 }

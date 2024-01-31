@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice</title>
+    <link rel="stylesheet" href="practice.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div class="header">
+        <h3>설문조사</h3>
+        <label for="name" class="name">이름</label>
+        <input type="text" id="name" placeholder="name" />
+        <br />
+        <label for="email" class="email">이메일</label>
+        <input type="email" id="email" placeholder="email" />
+      </div>
+      <div class="concent">
+        <p>나이</p>
+        <input type="radio" id="10" name="age" value="10" />10대
+        <input type="radio" id="20" name="age" value="20" />20대
+        <input type="radio" id="30" name="age" value="30" />30대
+        <input type="radio" id="40" name="age" value="40" />40대
+        <input type="radio" id="50" name="age" value="50" />50대
+        <input type="radio" id="60~" name="age" value="60~" />60대 이상 <br />
+        <br />
+        <p>원하는 강의(복수 응답 가능합니다.)</p>
+        <br />
+        <input type="checkbox" id="html" name="class" value="html" />html
+        <input type="checkbox" id="css" name="class" value="css" />css
+        <input type="checkbox" id="js" name="class" value="js" />javascript
+        <br />
+        <textarea
+          class="text"
+          cols="50"
+          rows="10"
+          name="message"
+          placeholder="하고 싶은 말을 써주세요😀"
+        ></textarea>
+        <input type="submit" value="제출" />
+      </div>
+    </div>
+  </body>
+</html>

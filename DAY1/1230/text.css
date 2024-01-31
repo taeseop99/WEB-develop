@@ -1,7 +1,6 @@
 .text {
   width: 300px;
-
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
 }
 /* text-align:문장 정렬(왼쪽,오른쪽,가운데,양쪽) */

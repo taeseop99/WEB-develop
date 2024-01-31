@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            //실습3: Promise로 배경색 변경하기
+            /* function bg1() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = 'beige';
+                        resolve();
+                    }, 1000);
+                });
+            }
+            function bg2() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = 'yellow';
+                        resolve();
+                    }, 1000);
+                });
+            }
+            function bg3() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = 'green';
+                        resolve();
+                    }, 1000);
+                });
+            }
+            function bg4() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = 'orange';
+                        resolve();
+                    }, 1000);
+                });
+            }
+            function bg5() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = 'navy';
+                        resolve();
+                    }, 1000);
+                });
+            }
+
+            async function cbg() {
+                await bg1();
+                await bg2();
+                await bg3();
+                await bg4();
+                await bg5();
+            }
+            cbg();
+            */
+
+            function changeBgColor(newColor) {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        document.body.style.backgroundColor = newColor;
+                    }, 1000);
+                });
+            }
+
+            /*
+            //콜백 함수를 이용한 방식
+            changeBgColor('red')
+                .then(() => {
+                    return changeBgColor('orange');
+                })
+                .then(() => {
+                    return changeBgColor('brown');
+                })
+                .then(() => {
+                    return changeBgColor('pink');
+                })
+                .then(() => {
+                    return changeBgColor('black');
+                });
+                */
+
+            //async/await를 이용한 방식
+            async function exec() {
+                await changeBgColor('red', 1000);
+                await changeBgColor('purple', 1000);
+                await changeBgColor('yellow', 1000);
+                await changeBgColor('green', 1000);
+            }
+            exec();
+        </script>
+    </body>
+</html>

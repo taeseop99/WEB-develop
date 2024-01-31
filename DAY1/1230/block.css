@@ -5,12 +5,15 @@
 }
 .html {
   background-color: skyblue;
+  color: white;
 }
 .css {
   background-color: green;
+  color: white;
 }
 .javascript {
   background-color: red;
+  color: white;
 }
 .main div {
   width: 200px;
@@ -27,6 +30,7 @@
 /* margin: 20px 40px 60px; */
 /* margin: 10px 30px 50px 70px; */
 /* margin: 20px 20px; */
+
 /* padding: 30px; */
 /* padding: 20px 40px; */
 /* padding: 20px 30px 40px; */
@@ -34,6 +38,7 @@
 
 /* display:레이아웃을 꾸밀때 사용,화면에 어떻게 요소들을
     보여줄지 나타내는 것 */
+
 /* margin:요소 외부 여백 */
 /* margin 단위 방향은 시계방향 */
 /* padding:요소 내부 여백 */

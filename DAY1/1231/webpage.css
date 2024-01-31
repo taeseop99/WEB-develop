@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrap {
+  text-align: center;
+}
+#wrap-center {
+  width: 1280px;
+  background-color: yellow;
+  display: inline-block;
+}
+#header-humburger {
+  margin-top: 18px;
+  background-color: blue;
+  width: 46px;
+  height: 46px;
+}
+#main {
+  height: 2000px;
+}
