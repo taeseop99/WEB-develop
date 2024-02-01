@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../public/css/style.css" />
+    </head>
+    <body>
+        <%- include('header.ejs') %>
+        <!-- 다른 ejs파일 가져다 쓸때 -->
+        <h1>Hello ejs</h1>
+        <ul class="test">
+            <!--css 파일을 따로 만들어 적용시킬때-->
+
+            <% for(let i = 0; i < 5; i++) { %>
+            <li>안녕</li>
+            <% } %>
+        </ul>
+        <h1><%= name %></h1>
+        <!--name의 값은 node.js에서 작성-->
+    </body>
+</html>

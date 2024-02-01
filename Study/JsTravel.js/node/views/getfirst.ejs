@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>GET으로 정보 가져오기</h1>
+        <form action="/resultGET">
+            <label for="username">이름</label>
+            <input type="text" name="username" id="username" />
+            <br />
+            <fieldset>
+                <legend>성별</legend>
+                <input type="radio" name="gender" id="male" value="남자" />
+                <label for="male">남자</label>
+                <input type="radio" name="gender" id="female" value="여자" />
+                <label for="female">여자</label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>생년월일</legend>
+                <select name="bhYear" id="year">
+                    <% for(let i = 1990; i <= 2000; i++) { %>
+                    <option value="<%= i %>"><%= i %></option>
+                    <% } %>
+                </select>
+                <label for="year">년</label>
+                <select name="bhMonth" id="month">
+                    <% for(let i= 1; i <=12; i++) { %>
+                    <option value="<%= i %>"><%= i %></option>
+                    <% } %>
+                </select>
+                <label for="month">월</label>
+                <select name="bhDay" id="day">
+                    <% for(let i= 1; i < 31; i++) { %>
+                    <option value="<%= i %>"><%= i %></option>
+                    <% } %>
+                </select>
+                <label for="day">일</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
