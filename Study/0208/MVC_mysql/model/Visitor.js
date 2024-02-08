@@ -4,7 +4,7 @@ const getConn = async () => {
     return await mysql.createConnection({
         host: 'localhost', // <-주소
         user: 'root',
-        password: 'nate9641@@',
+        password: process.env.PASSWORD,
         database: 'kdt11',
         port: 3306,
     });
